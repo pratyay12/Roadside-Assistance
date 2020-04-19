@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergancy"
+    android:background="@drawable/gradient">
+
+
+    <ImageView
+        android:id="@+id/imageViewEmergency"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_call_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:text="CHARUSAT HOSPITAL"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewEmergency2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="60dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_call_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv1"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewEmergency" />
+
+    <ImageView
+        android:id="@+id/imageViewEmergency3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="61dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_call_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toEndOf="@+id/tv3"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewEmergency2" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:text="SWAMINARAYAN "
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="252dp"
+        android:text="HOSPITAL"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewEmergency2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"></TextView>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:text="POLICE STATION"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:text="WOMEN'S HELPLINE"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv3" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="60dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_call_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv4"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewEmergency3" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="96dp"
+        android:text="AMBULANCE"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv4" />
+
+    <ImageView
+        android:id="@+id/imageview5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="60dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_call_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintStart_toEndOf="@+id/tv5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

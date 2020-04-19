@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFourWheelerServices"
+    android:background="@drawable/gradient">
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/submit"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etHaddress" />
+
+    <EditText
+        android:id="@+id/etGarageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="99dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Garage Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/etGarageCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Garage City"
+        android:inputType="textPersonName"
+
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etGarageName" />
+
+    <EditText
+        android:id="@+id/etServices"
+        android:layout_width="214dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/services"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etGarageCity"
+        android:autofillHints=""
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/etHnumber"
+        android:layout_width="214dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="96dp"
+        android:autofillHints=""
+        android:hint="@string/mobile_number"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etServices"
+        android:inputType="phone" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="131dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintCircleRadius="10dp"
+        android:contentDescription="@string/todo" />
+
+    <EditText
+        android:id="@+id/etHroad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Road"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etHnumber" />
+
+    <EditText
+        android:id="@+id/etHaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etHroad" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

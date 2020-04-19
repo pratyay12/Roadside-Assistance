@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Roadside Assistant</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register_here">Register Here</string>
+    <string name="emergency">Emergency</string>
+    <string name="todo">TODO</string>
+    <string name="Register">Register</string>
+    <string name="Name">Name</string>
+    <string name="Mobile_number">Mobile Number</string>
+    <string name="username">Username</string>
+    <string name="two">Two</string>
+    <string name="wheeler">Wheeler</string>
+    <string name="four">Four</string>
+    <string name="hospital">Hospital</string>
+    <string name="services">Services</string>
+    <string name="refreshment">Refreshment</string>
+    <string name="centres">Centres</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="logout">Logout</string>
+    <string name="add_two">Add Two</string>
+    <string name="add_four">Add Four</string>
+    <string name="add_hospital">Add Hospital</string>
+    <string name="add_vehicle">Add vehicle</string>
+    <string name="add">Add</string>
+    <string name="add_refreshment">Add refreshment</string>
+    <string name="two_wheeler">Two Wheeler</string>
+    <string name="four_wheeler">Four Wheeler</string>
+    <string name="garage_name">Garage name</string>
+    <string name="garage_city">Garage city</string>
+    <string name="fuel_services">Fuel Services</string>
+    <string name="accidents">Accidents</string>
+    <string name="battery_services">Battery Services</string>
+    <string name="puncture_services">Puncture Services</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="submit">submit</string>
+    <string name="range">Range</string>
+    <string name="hospital_name">Hospital Name</string>
+    <string name="hospital_city">Hospital city</string>
+    <string name="refreshment_centre_name">Refreshment Centre Name</string>
+    <string name="location">Location</string>
+    <string name="already_a_member_sign_in_here">Already a member? Sign in here</string>
+    <string name="activity_vertical_margin">8</string>
+    <string name="activity_horizontal_margin">8</string>
+
+</resources>
+
